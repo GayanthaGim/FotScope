@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+<!--    <EditText-->
+<!--        android:id="@+id/searchBarSports"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:background="@drawable/search_bg"-->
+<!--        android:hint="Search Academic News..."-->
+<!--        android:paddingStart="40dp"-->
+<!--        android:paddingEnd="12dp"-->
+<!--        android:layout_marginBottom="12dp"-->
+<!--        android:layout_marginTop="22dp"-->
+<!--        android:drawableStart="@drawable/ic_search"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:textColorHint="#B0B0B0"-->
+<!--        android:textColor="@color/whitetext"-->
+<!--        android:gravity="center_vertical" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAcademic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

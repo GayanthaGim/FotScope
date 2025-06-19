@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FOT NEWS</string>
+    <string name="description">I am Danushka, an undergraduate at the University of Colombo, pursuing a Bachelor\'s in ICT. As an aspiring Android app developer, I specialize in Java, Kotlin, and the Android SDK. I focus on creating user-friendly apps, optimizing UI/UX, and ensuring high performance. Passionate about clean, maintainable code, I stay updated with the latest Android trends and strive to deliver quality solutions.</string>
+    <string name="version">Release Version: V 1.0</string>
+    <string name="stuno">Student No: 2022t01548</string>
+</resources>

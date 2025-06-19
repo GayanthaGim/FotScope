@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp"
+    android:layout_marginTop="12dp"
+    app:cardBackgroundColor="@color/bodycolor"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/articleImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/placeholder_image" />
+
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/buttonbg" />
+
+    <TextView
+        android:id="@+id/articleSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Short summary goes here..."
+        android:textSize="14sp"
+        android:textColor="#444" />
+
+    <TextView
+        android:id="@+id/articleDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Date Published : Dec 25, 2024"
+        android:textSize="12sp"
+        android:textColor="@color/buttonbg" />
+
+    <TextView
+        android:id="@+id/fullSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Full article content goes here."
+        android:textSize="14sp"
+        android:textColor="@color/buttonbg"
+        android:visibility="gone" /> <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ic_share"
+        android:src="@drawable/ic_share"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="Share" />
+
+    <TextView
+        android:id="@+id/readMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_more"
+        android:textSize="12sp"
+        android:textColor="@color/background"
+        android:layout_gravity="end" />
+</LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
