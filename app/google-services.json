@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "741982728981",
+    "firebase_url": "https://fotscope2-default-rtdb.firebaseio.com",
+    "project_id": "fotscope2",
+    "storage_bucket": "fotscope2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741982728981:android:6f8cde16ee5147e6eaaf1c",
+        "android_client_info": {
+          "package_name": "com.example.fotscope"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbInbUqFGwHH1AsV_HfZ0Ht0R-Gnd8gXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#35BB78</color>
+    <color name="whitetext">#CBD9FC</color>
+    <color name="loginbox">#338CF6</color>
+    <color name="buttonbg">#021126</color>
+    <color name="editTextFocused">#E0F7FA</color>
+    <color name="editTextDefault">#FFFFFF</color>
+    <color name="searchcolor">#30A86C</color>
+    <color name="bodycolor">#C2EBD7</color>
+
+
+
+</resources>
