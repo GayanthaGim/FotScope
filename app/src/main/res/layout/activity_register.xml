@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="#3DB680">
 
-    <!-- Top header block -->
     <TextView
         android:id="@+id/textHello"
         android:layout_width="wrap_content"
@@ -21,7 +20,6 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="48dp" />
 
-    <!-- White rounded container for inputs and buttons -->
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="0dp"
@@ -46,7 +44,6 @@
         android:shape="rectangle"
         >
 
-        <!-- Inputs container with rounded corners -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,6 +52,7 @@
             android:padding="16dp"
             android:layout_marginBottom="24dp"
             android:clipToPadding="false">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -64,48 +62,44 @@
                 android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
 
-            <!-- Password input with rounded corners and background -->
             <EditText
                 android:id="@+id/input_name"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="@drawable/rounded_input_bg"
-                android:hint="Jhon Doe"
+                android:hint="John Doe"
                 android:paddingStart="12dp"
                 android:paddingEnd="12dp"
                 android:textColorHint="#000000"
                 android:textColor="#000000"
-                android:inputType="textPassword"
+                android:inputType="textPersonName|textCapWords"
                 android:textSize="14sp"
                 android:layout_marginBottom="8dp"/>
 
 
-            <!-- Gmail or Phone label -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gmail or Phone"
+                android:text="Email or Phone"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
 
-            <!-- Email input with rounded corners and background -->
             <EditText
-                android:id="@+id/input_email"
+                android:id="@+id/input_email_phone"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="@drawable/rounded_input_bg"
-                android:hint="example@gmail.com"
+                android:hint="example@gmail.com or 123-456-7890"
                 android:paddingStart="12dp"
                 android:paddingEnd="12dp"
                 android:textColorHint="#070707"
                 android:textColor="#000000"
-                android:inputType="textEmailAddress"
+                android:inputType="textEmailAddress|phone"
                 android:textSize="14sp"
                 android:layout_marginBottom="16dp"/>
 
-            <!-- Password label -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -115,7 +109,6 @@
                 android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
 
-            <!-- Password input with rounded corners and background -->
             <EditText
                 android:id="@+id/input_password"
                 android:layout_width="match_parent"
@@ -129,6 +122,7 @@
                 android:inputType="textPassword"
                 android:textSize="14sp"
                 android:layout_marginBottom="8dp"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -138,7 +132,6 @@
                 android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
 
-            <!-- Password input with rounded corners and background -->
             <EditText
                 android:id="@+id/input_confirmpassword"
                 android:layout_width="match_parent"
@@ -153,12 +146,8 @@
                 android:textSize="14sp"
                 android:layout_marginBottom="8dp"/>
 
-
-            <!-- Forgot Password link -->
-
         </LinearLayout>
 
-        <!-- Sign In Button -->
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_sign_up"
             android:layout_width="match_parent"
@@ -170,7 +159,6 @@
             android:background="@drawable/rounded_button_bg"
             android:layout_marginBottom="24dp" />
 
-        <!-- Or sign in with text -->
         <TextView
             android:id="@+id/or_sign_in_with"
             android:layout_width="wrap_content"
@@ -180,7 +168,6 @@
             android:textColor="#000000"
             android:layout_marginBottom="16dp" />
 
-        <!-- Social buttons container -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="40dp"
@@ -199,10 +186,6 @@
                 android:scaleType="centerInside"
                 android:padding="8dp" />
 
-
-
-
-
             <View
                 android:layout_width="16dp"
                 android:layout_height="match_parent" />
@@ -213,14 +196,11 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/rounded_button_bg1"
                 android:src="@drawable/ic_twitter"
-                android:contentDescription="Google Sign In"
+                android:contentDescription="Twitter Sign In"
                 android:scaleType="centerInside"
                 android:padding="8dp" />
         </LinearLayout>
 
-
-
-        <!-- Signup text -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
